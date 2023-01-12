@@ -36,6 +36,7 @@
   "less.validate": false,
   "scss.validate": false,
   "typescript.tsdk": "./node_modules/typescript/lib", // VSCodeデフォルトではなく、プロジェクトのTypeScriptを強制的に使わせる
+  "eslint.workingDirectories": ["./frontend"], // ESLintの設定ファイルのパスを通す https://zenn.dev/taichifukumoto/scraps/45be5ffdfa8457
   "[html]": {
       "editor.insertSpaces": true,
   },
